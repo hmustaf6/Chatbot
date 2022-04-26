@@ -1,0 +1,27 @@
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.option-button {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 8px;
+  border-color: purple;
+  background: transparent;
+  text-align: center;
+}
+
+.further-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.further-button {
+  margin: 5px;
+  border-radius: 25px;
+  padding: 8px;
+  border-color: purple;
+  background: transparent;
+  text-align: center;
+}

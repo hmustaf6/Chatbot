@@ -1,16 +1,23 @@
 import React from "react";
-
 import "./Options.css";
 
 const Options = (props) => {
   const options = [
     {
-      text: "Javascript",
-      handler: props.actionProvider.handleJavascriptQuiz,
+      text: "Maker?",
+      handler: props.actionProvider.handleMaker,
       id: 1,
     },
-    { text: "Python", handler: () => {}, id: 2 },
-    { text: "Golang", handler: () => {}, id: 3 },
+    {
+      text: "Client?",
+      handler: props.actionProvider.handleClient,
+      id: 2,
+    },
+    {
+      text: "Reach out to customer support?",
+      handler: props.actionProvider.handleCustomerSupport,
+      id: 3,
+    },
   ];
 
   const buttonsMarkup = options.map((option) => (
